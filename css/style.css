@@ -152,10 +152,28 @@ input {
 .saydullo {
     border-radius: 12px;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
-.kolo{
+
+.hero-9 {
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    margin-top: 70px;
+}
+
+.logo-hero {
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    margin-top: 180px;
+}
+
+.fogo-logo {
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.kolo {
     padding: 20px;
 }
 
@@ -185,6 +203,22 @@ input {
     display: flex;
     justify-content: flex-end;
     margin-top: -122px;
+    gap: 12px;
+    padding: 0px 50px;
+}
+
+.group-a {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: -122px;
+    padding: 0px 50px;
+}
+
+.group {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -232px;
     gap: 12px;
     padding: 0px 50px;
 }
@@ -319,6 +353,11 @@ td {
     margin-bottom: 8px;
 }
 
+.text-student {
+    font-size: 20px;
+    margin-left: -20px;
+}
+
 thead {
     text-align: left;
 }
@@ -354,7 +393,7 @@ thead {
     white-space: nowrap;
 }
 
-.border-numbe{
+.border-numbe {
     display: flex;
     align-items: center;
     margin-left: 45px;
@@ -442,7 +481,7 @@ thead {
     cursor: pointer;
 }
 
-.blue-btn{
+.blue-btn {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -512,7 +551,25 @@ thead {
         padding-top: 80px;
     }
 
-    .group-btn{
+    .group-btn {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 230px;
+    }
+
+    .hero-9 {
+        margin-top: 30px;
+    }
+
+    .group-a {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-top: -10px;
+    }
+
+    .group {
         display: flex;
         justify-content: center;
         position: relative;
@@ -567,7 +624,7 @@ thead {
         margin: 0 auto;
     }
 
-    .droup-text{
+    .droup-text {
         margin-left: -30px;
     }
 
@@ -653,10 +710,10 @@ thead {
         font-size: 12px;
         display: flex;
         gap: 10px;
-        align-items: center; 
+        align-items: center;
     }
 
-    .contact{
+    .contact {
         margin-left: -10px;
     }
 
