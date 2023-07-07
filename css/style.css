@@ -124,6 +124,16 @@ body {
     display: flex;
 }
 
+.a-pocco-menu{
+    text-decoration: none;
+    color: var(--white, #FFF);  
+}
+
+.p-pocco-menu{
+    text-decoration: none;
+    color: var(--gray-700, #374151);
+}
+
 .home-image {
     width: 24px;
     height: 24px;
@@ -205,6 +215,7 @@ body {
 
 .pocco-menu-div{
     padding-right: 60px;
+    padding-top: 10px;
 }
 
 .hum-menu {
@@ -326,6 +337,12 @@ input {
     padding: 20px;
 }
 
+.kolo-2 {
+    position: relative;
+    bottom: 150px;
+    padding: 20px;
+    opacity: 10%;
+}
 
 .droup-text {
     display: grid;
